@@ -14,11 +14,11 @@ function App() {
           count is {count}
         </button>
         <p>
-         Aguarde em breve vou fazer muitas novidades!
+         Aguarde em breve vou trazer muitas novidades!
         </p>
       </div>
       <p className="read-the-docs">
-        página desenvolvida por Rogerio Cordeiro.
+        Página desenvolvida por Rogerio Cordeiro.
       </p>
     </>
   )
