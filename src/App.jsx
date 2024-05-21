@@ -12,7 +12,7 @@ function App() {
       <h1>Seja bem vindo(a) a minha página</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
-          Clica para contar! {count}
+          Clique para contar! {count}
         </button>
         <p>
          Aguarde em breve vou trazer muitas novidades!
