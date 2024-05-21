@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
@@ -8,10 +6,13 @@ function App() {
 
   return (
     <>
-      <h1>Seja bem vindo a minha página</h1>
+      <div>
+        <a href="https://rogeriocordeiro.github.io/" className="logo"><button>Voltar</button></a>
+      </div>
+      <h1>Seja bem vindo(a) a minha página</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+          Clica para contar! {count}
         </button>
         <p>
          Aguarde em breve vou trazer muitas novidades!
@@ -20,7 +21,7 @@ function App() {
       <p className="read-the-docs">
         Página desenvolvida por Rogerio Cordeiro.
       </p>
-    </>
+    </> 
   )
 }
 
